@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+.navbar a{
+    color: white;
+}
+
+a.dropdown-item{
+    color: black;
+}
+a.dropdown-item:hover{
+    color: white;
+    background-color: skyblue;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
